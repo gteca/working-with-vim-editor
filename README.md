@@ -33,10 +33,10 @@ The normal is the default mode. The normal mode allows navigating through the te
 To navigate through the text, instead of using arrowkeys, we can also navigate through the text using the keyboard letters:
 
 
-<kbd>h</kbd> Move the cursor to the right \
-<kbd>j</kbd> Move the cursor down \
-<kbd>k</kbd> Move the cursor up \
-<kbd>l</kbd> Move the cursor to the left
+- <kbd>h</kbd> Move the cursor to the right 
+- <kbd>j</kbd> Move the cursor down 
+- <kbd>k</kbd> Move the cursor up 
+- <kbd>l</kbd> Move the cursor to the left
 
 - **Keybinding**
   - <kbd>u</kbd> Undo changes
@@ -52,7 +52,7 @@ To navigate through the text, instead of using arrowkeys, we can also navigate t
   - <kbd>d$</kbd> Delete from the cursor's current position to the end of the line
   - <kbd>ci"</kbd> Find the nearest quotation mark in the cursor's current line, remove the content inside quote ", switch to insert mode and place the cursor between the empty quote (very useful when we intend to remove a text and replace for a new one)
   - <kbd>ci(</kbd> Find the nearest openning paranthesis in the cursor's current line, remove the content, switch insert to insert mode and to place the cursor inside the paranthesis (very useful to remove the arguments of function and start writing new ones)
-  - <kbd>Line#G</kbd> Go to Line#
+  - <kbd>numberG</kbd> Go to Line#
   - <kbd>dw</kbd> Delete the next word (next word means the word after the word of cursor's current position) 
   - <kbd>db</kbd> Delete the previous word
   - <kbd>diw</kbd> Delete in the middle of the word (delete the current work when the cursor is in the middle of it)
@@ -83,14 +83,13 @@ The visual mode is for text selection. There are three visual modes, but here I 
 - <kbd>V</kbd> Visual mode that allows to select line by line
 
 - **Keybinding**
-
-- <kbd>d</kbd> Deletes the selected (highlighted) text (You always can undo the deletion using ```u``` when swtching to normal mode \
-- <kbd>y</kbd> Copy a text to the clipboard 
-- <kbd>yy</kbd> or </kbd>Y</kbd> Copy the entire line 
-- <kbd>p</kbd> - paste a text to the editor below the current line 
-- <kbd>P</kbd> - Paste the text to the editor above the current line 
-- <kbd>c</kbd> - remove the highlighted text and switchs to insert mode
-- <kbd>r</kbd> - replace a single character
+  - <kbd>d</kbd> Deletes the selected (highlighted) text (You always can undo the deletion using ```u``` when swtching to normal mode \
+  - <kbd>y</kbd> Copy a text to the clipboard 
+  - <kbd>yy</kbd> or </kbd>Y</kbd> Copy the entire line 
+  - <kbd>p</kbd> - paste a text to the editor below the current line 
+  - <kbd>P</kbd> - Paste the text to the editor above the current line 
+  - <kbd>c</kbd> - remove the highlighted text and switchs to insert mode
+  - <kbd>r</kbd> - replace a single character
 
 ## Searching
 
@@ -102,5 +101,5 @@ To remove only a particular thing just select the text.
 
 
 # Waypoint 
-<kbd>ma</kbd> - Mark this line a point to return if we want to go back just <kbd>'a</kbd>.
+- <kbd>ma</kbd> - Mark this line a point to return if we want to go back just <kbd>'a</kbd>.
 The character <kbd>a</kbd> is arbitrary, one can specify any character from the alphabet, or have multiples waypoints.
