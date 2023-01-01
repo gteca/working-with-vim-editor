@@ -100,7 +100,7 @@ The visual mode is for text selection. There are three visual modes, but here I 
 To remove only a particular thing just select the text.
 
 
-# Waypoint 
+## Waypoint 
 - <kbd>ma</kbd> - Mark this line a point to return if we want to go back just <kbd>'a</kbd>.
 The character <kbd>a</kbd> is arbitrary, one can specify any character from the alphabet, or have multiples waypoints.
 
