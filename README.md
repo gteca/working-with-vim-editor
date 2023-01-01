@@ -52,7 +52,7 @@ To navigate through the text, instead of using arrowkeys, we can also navigate t
   - <kbd>d$</kbd> Delete from the cursor's current position to the end of the line
   - <kbd>ci"</kbd> Find the nearest quotation mark in the cursor's current line, remove the content inside quote ", switch to insert mode and place the cursor between the empty quote (very useful when we intend to remove a text and replace for a new one)
   - <kbd>ci(</kbd> Find the nearest openning paranthesis in the cursor's current line, remove the content, switch insert to insert mode and to place the cursor inside the paranthesis (very useful to remove the arguments of function and start writing new ones)
-  - <kbd>numberG</kbd> Go to Line#
+  - <kbd>numberG</kbd> Go to Line ```number```
   - <kbd>dw</kbd> Delete the next word (next word means the word after the word of cursor's current position) 
   - <kbd>db</kbd> Delete the previous word
   - <kbd>diw</kbd> Delete in the middle of the word (delete the current work when the cursor is in the middle of it)
@@ -103,3 +103,10 @@ To remove only a particular thing just select the text.
 # Waypoint 
 - <kbd>ma</kbd> - Mark this line a point to return if we want to go back just <kbd>'a</kbd>.
 The character <kbd>a</kbd> is arbitrary, one can specify any character from the alphabet, or have multiples waypoints.
+
+## Buffers
+Buffers allow to have multiples files open in VIM in the command mode.
+
+- ```:e [file_path]``` Open a new buffer
+- ```:bn``` Go to the next buffer
+- ```:bb``` Go to the previous buffer
