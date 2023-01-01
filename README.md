@@ -107,6 +107,8 @@ The character <kbd>a</kbd> is arbitrary, one can specify any character from the 
 ## Buffers
 Buffers allow to have multiples files open in VIM in the command mode.
 
+- ```:r [file_path]``` Read the contents of a file in the current file.
 - ```:e [file_path]``` Open a new buffer
 - ```:bn``` Go to the next buffer
-- ```:bb``` Go to the previous buffer
+- ```:bp``` Go to the previous buffer
+- ```:enew``` A create a new empty buffer
