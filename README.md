@@ -113,5 +113,5 @@ Buffers allow to have multiples files open in VIM in the command mode.
 - ```:bp``` Go to the previous buffer
 - ```:bd``` Delete the current buffer
 - ```:enew``` A create a new empty buffer
-- ```:vsplit [filename]``` Split the screen in two (horizontal)
+- ```:vsplit [filename]``` Slit the screen vertically
 - <kbd>ctrl</kbd> + <kbd>ww</kbd> Switch between screens
