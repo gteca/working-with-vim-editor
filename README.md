@@ -28,15 +28,15 @@ colorscheme slate
 ```
 
 ## Normal mode
-The normal is the default mode. The normal mode allows navigating through the text (text means anything displayed in the editor including source code) and execute operations on the text
+The normal is the default mode. The normal mode allows navigating through the text (text means anything displayed in the editor including source code) and execute operations on the text.
 
 To navigate through the text, instead of using arrowkeys, we can also navigate through the text using the keyboard letters:
 
 
-- <kbd>h</kbd> Move the cursor to the right 
+- <kbd>h</kbd> Move the cursor to the left
 - <kbd>j</kbd> Move the cursor down 
 - <kbd>k</kbd> Move the cursor up 
-- <kbd>l</kbd> Move the cursor to the left
+- <kbd>l</kbd> Move the cursor to the right
 
 - **Keybinding**
   - <kbd>u</kbd> Undo changes
