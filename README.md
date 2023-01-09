@@ -42,7 +42,7 @@ To navigate through the text, instead of using arrowkeys, we can also navigate t
   - <kbd>u</kbd> Undo changes
   - <kbd>ctrl + r</kbd> Redo changes
   - <kbd>cc</kbd> Removes the content of the line and switch to the insert mode
-  - <kbd>D</kbd> Remove everything after the cursor
+  - <kbd>D</kbd> Remove from the current line everything after the cursor
   - <kbd>dd</kbd> Deletes the entire line
   - <kbd>w</kbd> or <kbd>W</kbd> - Jump to the next word in the text
   - <kbd>b</kbd> Jump to the previous word (backwords)
